@@ -1,8 +1,8 @@
 # BsrVideoAnalyzer
 A simple video analyzing tool that could navigates video stream and displays macroblock(CTU for hevc) type in video playing window.
 
-Using FFMpeg API to demux video stream => analyzing stream infomation => FFMpeg API doing decode => SDL displaying
-=> overlay macroblock or CTU info
+General Process: Using FFMpeg API to demux video stream => analyzing stream infomation => FFMpeg API doing decode => SDL displaying
+		 => overlay macroblock or CTU info
 
 
 Features:
@@ -19,4 +19,4 @@ Features:
 		- Display of bitstream headers with offsets and bit size indication (as in the Standard documentation) for all standards.
 		- Supporting video format: mp4 avi mkv flv h264 hevc h265, automatically demux using ffmpeg lib
 		- Display of Mackroblock / Coded Tree Unit: type quantizers
-		- Navigation via  thumbnails or button, step by step forward or backward.
+		- Navigation via thumbnails or button, step by step forward or backward.
