@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="bmp_utils.cpp" />
+    <ClCompile Include="BsrVideoAnalyzer.cpp" />
+    <ClCompile Include="BsrVideoAnalyzerDlg.cpp" />
+    <ClCompile Include="hexeditctrl.cpp" />
+    <ClCompile Include="NalDebugTree.cpp" />
+    <ClCompile Include="NalDebugTxt.cpp" />
+    <ClCompile Include="PlayDlg.cpp" />
+    <ClCompile Include="VideoDecode.cpp" />
+    <ClCompile Include="h264_avcc.cpp">
+      <Filter>StreamParse</Filter>
+    </ClCompile>
+    <ClCompile Include="h264_sei.cpp">
+      <Filter>StreamParse</Filter>
+    </ClCompile>
+    <ClCompile Include="h264_stream.cpp">
+      <Filter>StreamParse</Filter>
+    </ClCompile>
+    <ClCompile Include="h265_avcc.cpp">
+      <Filter>StreamParse</Filter>
+    </ClCompile>
+    <ClCompile Include="h265_sei.cpp">
+      <Filter>StreamParse</Filter>
+    </ClCompile>
+    <ClCompile Include="h265_stream.cpp">
+      <Filter>StreamParse</Filter>
+    </ClCompile>
+    <ClCompile Include="NalParse.cpp">
+      <Filter>StreamParse</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>VisualStudio</Filter>
+    </ClCompile>
+    <ClCompile Include="H264ToVideo.cpp" />
+    <ClCompile Include="XHeaderCtrl.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bmp_utils.h" />
+    <ClInclude Include="BsrVideoAnalyzer.h" />
+    <ClInclude Include="BsrVideoAnalyzerDlg.h" />
+    <ClInclude Include="hevc_moreinfo.h" />
+    <ClInclude Include="hexeditctrl.h" />
+    <ClInclude Include="PlayDlg.h" />
+    <ClInclude Include="VideoDecode.h" />
+    <ClInclude Include="videoInfo.h" />
+    <ClInclude Include="Resource.h">
+      <Filter>Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="h264_avcc.h">
+      <Filter>StreamParse</Filter>
+    </ClInclude>
+    <ClInclude Include="h264_sei.h">
+      <Filter>StreamParse</Filter>
+    </ClInclude>
+    <ClInclude Include="h264_stream.h">
+      <Filter>StreamParse</Filter>
+    </ClInclude>
+    <ClInclude Include="h265_avcc.h">
+      <Filter>StreamParse</Filter>
+    </ClInclude>
+    <ClInclude Include="h265_sei.h">
+      <Filter>StreamParse</Filter>
+    </ClInclude>
+    <ClInclude Include="h265_stream.h">
+      <Filter>StreamParse</Filter>
+    </ClInclude>
+    <ClInclude Include="NalParse.h">
+      <Filter>StreamParse</Filter>
+    </ClInclude>
+    <ClInclude Include="bs.h">
+      <Filter>StreamParse</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>VisualStudio</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>VisualStudio</Filter>
+    </ClInclude>
+    <ClInclude Include="H264ToVideo.h" />
+    <ClInclude Include="XHeaderCtrl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\first.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\last.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\next.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\open.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\pause.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\play.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\prev.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\save.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\stop.bmp">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\BsrVideoAnalyzer.ico">
+      <Filter>Resource</Filter>
+    </None>
+    <None Include="res\SDL2.dl_" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{329463d6-75da-4c60-a0e6-69274015a12b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StreamParse">
+      <UniqueIdentifier>{0026b455-27c2-49b5-94a0-0764a83dd3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VisualStudio">
+      <UniqueIdentifier>{58780577-acce-4623-8717-0261789d4ee9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BsrVideoAnalyzer.rc">
+      <Filter>Resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="res\mononoki-Bold.ttf" />
+  </ItemGroup>
+</Project>

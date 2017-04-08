@@ -1,0 +1,14 @@
+prefix=./dist-x86_static_g_t/
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: libavfilter
+Description: FFmpeg audio/video filtering library
+Version: 6.31.100
+Requires: libswscale >= 4.0.100, libavutil >= 55.17.103
+Requires.private: 
+Conflicts:
+Libs: -L${libdir}  -lavfilter psapi.lib
+Libs.private: 
+Cflags: -I${includedir}
