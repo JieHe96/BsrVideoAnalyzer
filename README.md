@@ -20,3 +20,5 @@ Features:
 		- Supporting video format: mp4 avi mkv flv h264 hevc h265, automatically demux using ffmpeg lib
 		- Display of Mackroblock / Coded Tree Unit: type quantizers
 		- Navigation via thumbnails or button, step by step forward or backward.
+
+PS: During the building process, if the Windows_SDK version does not fit the one in your computer, please try retarget the project, then rebuild to solve the issue.
